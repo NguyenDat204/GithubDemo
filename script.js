@@ -23,6 +23,15 @@ function calculate() {
   }
 
   document.getElementById("result").textContent = result;
+
+  if (isNaN(a) || isNaN(b)) {
+    resultEl.textContent = "Vui lòng nhập đúng số!";
+    return;
+  }
+  if (operator === "/" && b === 0) {
+    resultEl.textContent = "Không thể chia cho 0!";
+    return;
+  }
 }
 
 function resetForm() {
