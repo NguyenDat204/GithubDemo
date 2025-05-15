@@ -24,4 +24,3 @@ function calculate() {
 
   document.getElementById("result").textContent = result;
 }
-duy
