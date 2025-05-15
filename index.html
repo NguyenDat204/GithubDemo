@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Máy Tính Mini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Máy Tính Mini</h1>
+
+        <label for="a">Nhập số A:</label>
+        <input type="number" id="a">
+
+        <label for="b">Nhập số B:</label>
+        <input type="number" id="b">
+
+        <label for="operator">Chọn phép tính:</label>
+        <select id="operator">
+            <option value="+">Cộng (+)</option>
+            <option value="-">Trừ (-)</option>
+            <option value="*">Nhân (×)</option>
+            <option value="/">Chia (÷)</option>
+        </select>
+
+        <button onclick="calculate()">Tính</button>
+        <button onclick="resetForm()">Đặt lại</button>
+
+        <h2>Kết quả: <span id="result">--</span></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
