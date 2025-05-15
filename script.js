@@ -28,7 +28,6 @@ function calculate() {
     resultEl.textContent = "Vui lòng nhập đúng số!";
     return;
   }
-
   if (operator === "/" && b === 0) {
     resultEl.textContent = "Không thể chia cho 0!";
     return;
