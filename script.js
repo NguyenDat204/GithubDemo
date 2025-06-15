@@ -34,11 +34,5 @@ function calculate() {
   }
 }
 
-function resetForm() {
-  document.getElementById("a").value = "";
-  document.getElementById("b").value = "";
-  document.getElementById("operator").value = "+";
-  document.getElementById("result").textContent = "--";
-}
 
 chdygfhvhjbkjgbiibibbib
